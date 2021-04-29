@@ -224,8 +224,6 @@ namespace ariel
             }
         }
 
-        cout << "2) number: " << number << " unit: " << unit << " line: " << line << endl;
-
         if (!NumberWithUnits::is_valid(unit))
         {
             throw invalid_argument("Error: does not recognize this unit");
